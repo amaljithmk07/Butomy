@@ -1,0 +1,55 @@
+.navbar-main-body {
+  height: 50px;
+  width: 100%;
+  background-color: #252b42;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 0.75rem;
+}
+.navbar-contact {
+  height: 50px;
+  width: 10%;
+  /* background-color: rgb(175, 88, 88); */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 7px;
+}
+.navbar-email {
+  height: 50px;
+  width: 20%;
+  /* background-color: rgb(82, 15, 15); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 7px;
+}
+.navbar-about {
+  height: 50px;
+  width: 50%;
+  /* background-color: rgb(165, 149, 149); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-online-platforms {
+  height: 50px;
+  width: 20%;
+  /* background-color: rgb(65, 22, 22); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 7px;
+}
+/* .navbar-icons{
+    height: 13px;
+    width: auto;
+} */
+
+@media screen and (max-width: 1400px) {
+  .navbar-main-body {
+    display: none;
+  }
+}
